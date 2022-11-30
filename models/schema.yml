@@ -36,3 +36,12 @@ models:
         tests:
           - accepted_values:
               values: ['placed', 'shipped', 'return_pending', 'returned']
+
+
+
+
+
+
+
+
+dbt docs generAte 
