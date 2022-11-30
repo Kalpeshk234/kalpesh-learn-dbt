@@ -11,7 +11,7 @@ models:
         description: Primary key
         tests:
           - unique
-         
+          -not null 
       - name: first_order_date
         description: NULL when a customer has not yet placed an order.
 
@@ -21,10 +21,8 @@ models:
       - name: customer_id
         description: Primary key
         tests:
-          - unique
-          -not null
-         
-
+          - unique     
+          - not null
   - name: stg_orders
     description: This model cleans up order data
     columns:
@@ -32,7 +30,7 @@ models:
         description: Primary key
         tests:
           - unique
-          - not null
+    
         
       - name: status
         tests:
