@@ -1,5 +1,5 @@
 select
-    id as order_id,
+    id as order_id null,
     user_id as customer_id,
     order_date,
     status
