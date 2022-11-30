@@ -41,4 +41,4 @@ models:
     example:
       +materialized: view
 
-      dbt run
+      
