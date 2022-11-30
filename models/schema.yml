@@ -37,7 +37,6 @@ models:
           - accepted_values:
               values: ['placed', 'shipped', 'return_pending', 'returned']
 
-dbt build
 
 
 
