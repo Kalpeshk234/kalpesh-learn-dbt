@@ -15,7 +15,7 @@ my-profile: jaffle_shop
       type: bigquery
       method: oauth
       project: Go_dbt
-      dataset: my_dataset
+      dataset: dbt_setup
       location: US # Optional, one of US or EU, or a regional location
 
 
